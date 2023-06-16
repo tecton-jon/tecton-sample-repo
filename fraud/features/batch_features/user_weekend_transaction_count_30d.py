@@ -17,7 +17,7 @@ def is_weekend(input_df, timestamp_column):
     ],
     online=False,
     offline=False,
-    feature_start_time=datetime(2022, 5, 1),
+    feature_start_time=datetime(2023, 1, 1),
     tags={'cost-center': 'finance'},
     description='How many weekend transactions the user has made in the last 30 days.'
 )

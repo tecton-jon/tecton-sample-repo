@@ -13,11 +13,11 @@ from datetime import datetime, timedelta
     batch_schedule=timedelta(days=1),
     ttl=timedelta(days=30),
 )
-def user_has_great_credit(credit_scores):
+def user_has_good_credit(credit_scores):
     return f'''
         SELECT
             user_id,
-            IF (credit_score > 740, 1, 0) as user_has_great_credit,
+            IF (credit_score > 670, 1, 0) as user_has_good_credit,
             timestamp
         FROM
             {credit_scores}

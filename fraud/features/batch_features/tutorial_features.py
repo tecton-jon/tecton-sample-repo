@@ -30,7 +30,7 @@ from datetime import datetime, timedelta
 #     entities=[user],
 #     mode='spark_sql',
 #     online=True,
-#     feature_start_time=datetime(2022, 5, 1),
+#     feature_start_time=datetime(2023, 1, 1),
 #     description='Max transaction amounts for the user in various time windows',
 #     aggregation_interval=timedelta(days=1),
 #     aggregations=[Aggregation(column='amt', function='max', time_window=timedelta(days=7))],

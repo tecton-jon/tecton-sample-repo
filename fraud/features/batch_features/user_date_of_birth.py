@@ -3,7 +3,6 @@ from fraud.entities import user
 from fraud.data_sources.fraud_users import fraud_users_batch
 from datetime import datetime, timedelta
 
-
 @batch_feature_view(
     sources=[fraud_users_batch],
     entities=[user],

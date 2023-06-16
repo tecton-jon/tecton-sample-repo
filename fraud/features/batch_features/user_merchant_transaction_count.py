@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
     ],
     online=True,
     offline=True,
-    feature_start_time=datetime(2022, 5, 1),
+    feature_start_time=datetime(2023, 1, 1),
     tags={'release': 'production'},
     owner='matt@tecton.ai',
     description='User transaction counts at specific merchants over a series of time windows, updated daily.'

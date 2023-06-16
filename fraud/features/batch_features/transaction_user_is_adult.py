@@ -13,7 +13,7 @@ from datetime import datetime, timedelta
     mode='spark_sql',
     online=False,
     offline=False,
-    feature_start_time=datetime(2022, 5, 1),
+    feature_start_time=datetime(2023, 1, 1),
     batch_schedule=timedelta(days=1),
     ttl=timedelta(days=100),
     tags={'release': 'production'},

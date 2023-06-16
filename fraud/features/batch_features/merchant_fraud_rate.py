@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
         Aggregation(column='is_fraud', function='mean', time_window=timedelta(days=30)),
         Aggregation(column='is_fraud', function='mean', time_window=timedelta(days=90))
     ],
-    feature_start_time=datetime(2022, 5, 1),
+    feature_start_time=datetime(2023, 1, 1),
     description='The merchant fraud rate over series of time windows, updated daily.'
 )
 def merchant_fraud_rate(transactions_batch):

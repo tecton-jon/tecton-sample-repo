@@ -45,7 +45,7 @@ aggregations = reduce(lambda l, r: l + r, aggregations)
     aggregations=aggregations,
     online=False,
     offline=False,
-    feature_start_time=datetime(2022, 7, 1),
+    feature_start_time=datetime(2023, 1, 1),
     description='User transaction aggregate metrics split by purchase category.'
 )
 def user_transaction_aggregates_by_category(transactions_df):
