@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
     online=True,
     offline=True,
     feature_start_time=datetime(2022, 4, 1),
-    incremental_backfills=True,
+    #incremental_backfills=True,
     batch_schedule=timedelta(days=1),
     ttl=timedelta(days=2),
     owner='david@tecton.ai',

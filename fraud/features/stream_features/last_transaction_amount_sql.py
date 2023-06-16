@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
     source=transactions_stream,
     entities=[user],
     mode='spark_sql',
-    online=False,
+    online=True,
     offline=True,
     feature_start_time=datetime(2022, 5, 1),
     batch_schedule=timedelta(days=1),
